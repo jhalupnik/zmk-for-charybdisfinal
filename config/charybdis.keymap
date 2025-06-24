@@ -85,8 +85,8 @@
 &trans  &trans  &trans          &kp UP_ARROW  &trans     &trans       &trans          &msc SCRL_UP    &trans           &trans  &trans  &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans
 &trans  &trans  &trans          &trans        &trans     &trans       &trans          &trans          &trans           &trans  &trans  &trans
-                                &mkp MCLK     &mkp LCLK  &mkp RCLK    &trans          &trans
-                                              &mkp MB4   &mkp MB5     &trans
+                                &mkp MCLK     &mkp LCLK  &mkp RCLK    &mkp RCLK          &mkp LCLK
+                                              &mkp MB4   &mkp MB5     &mkp MCLK
             >;
         };
     };
