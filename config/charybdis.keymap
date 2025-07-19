@@ -20,7 +20,7 @@
 &kp BACKSPACE   &lt 5 A  &lt 4 S  &lt 3 D  &kp F            &kp G           &kp H             &kp J      &lt 3 K    &lt 4 L  &lt 6 SEMICOLON  &lt 1 SQT
 &kp LEFT_SHIFT  &lt 2 Z  &kp X    &kp C    &kp V            &kp B           &kp N             &kp M      &kp COMMA  &kp DOT  &lt 2 SLASH      &kp RIGHT_SHIFT
                                   &kp TAB  &kp SPACE        &lt 1 ENTER     &kp LEFT_CONTROL  &kp ENTER
-                                           &kp LA(LC(DEL))  &kp LEFT_WIN    &kp SPACE
+                                           &kp LEFT_ALT  &kp LEFT_WIN    &kp SPACE
             >;
         };
 
@@ -71,22 +71,22 @@
         Numbers {
             bindings = <
 &trans  &trans  &trans     &trans                &trans                 &trans         &trans           &trans        &trans        &trans        &trans         &trans
-&trans  &trans  &kp PIPE   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT    &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK   &trans
+&trans  &trans  &kp PIPE   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT    &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK   &kp PLUS
 &trans  &trans  &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp AT_SIGN      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL      &kp CARET
 &trans  &trans  &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET      &kp UNDER        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &trans
-                           &mkp MCLK             &mkp LCLK              &mkp RCLK      &kp PERIOD       &kp N0
+                           &kp LEFT_SHIFT        &mkp LCLK              &mkp RCLK      &kp PERIOD       &kp N0
                                                  &mkp MB4               &mkp MB5       &kp AMPS
             >;
         };
 
         SecMov {
             bindings = <
-&trans  &trans  &trans          &trans        &trans     &trans       &trans          &trans          &trans           &trans  &trans  &trans
-&trans  &trans  &trans          &kp UP_ARROW  &trans     &trans       &trans          &msc SCRL_UP    &trans           &trans  &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans
-&trans  &trans  &trans          &trans        &trans     &trans       &trans          &trans          &trans           &trans  &trans  &trans
-                                &mkp MCLK     &mkp LCLK  &mkp RCLK    &mkp RCLK       &mkp LCLK
-                                              &mkp MB4   &mkp MB5     &mkp MCLK
+&trans  &trans  &trans          &trans        &trans     &trans       &trans           &trans          &trans           &trans  &trans  &trans
+&trans  &trans  &trans          &kp UP_ARROW  &trans     &trans       &trans           &msc SCRL_UP    &trans           &trans  &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans       &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans
+&trans  &trans  &trans          &trans        &trans     &trans       &kp RA(L)        &trans          &trans           &trans  &trans  &trans
+                                &mkp MCLK     &mkp LCLK  &mkp RCLK    &kp RC(TAB)      &kp LA(TAB)
+                                              &mkp MB4   &mkp MB5     &kp LA(LC(DEL))
             >;
         };
     };
