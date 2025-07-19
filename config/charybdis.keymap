@@ -29,7 +29,7 @@
 &kp F1  &kp F2  &kp F3  &kp F4     &kp F5     &kp F6       &kp F7     &kp F8     &kp F9  &kp F10    &kp F11    &kp F12
 &trans  &none   &none   &none      &none      &trans       &none      &none      &none   &trans     &mkp MB4   &trans
 &trans  &none   &none   &none      &none      &trans       &mkp RCLK  &mkp LCLK  &trans  &mkp MCLK  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans     &trans     &none        &none      &none      &trans  &mkp LCLK  &mkp MB5   &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans     &trans     &kp LEFT_CONTROL        &none      &none      &trans  &mkp LCLK  &mkp MB5   &trans
                         &mkp MCLK  &mkp LCLK  &mkp RCLK    &mkp RCLK  &mkp LCLK
                                    &mkp MB4   &mkp MB5     &mkp MCLK
             >;
@@ -40,7 +40,7 @@
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3   &bt BT_SEL 4    &trans           &trans         &trans     &trans     &trans     &trans
 &trans          &trans        &trans        &kp RG(UP_ARROW)  &trans         &bt BT_NXT      &kp LC(Y)        &trans         &trans     &trans     &trans     &trans
 &trans          &trans        &kp RG(LEFT)  &kp RG(DOWN)      &kp RG(RIGHT)  &trans          &kp LC(Z)        &kp LC(C)      &kp LC(V)  &kp LC(X)  &kp LC(A)  &kp LC(F)
-&trans          &trans        &trans        &trans            &trans         &trans          &trans           &kp LC(S)      &trans     &trans     &trans     &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans     &trans     &kp LEFT_CONTROL          &trans           &kp LC(S)      &trans     &trans     &trans     &trans
                                             &kp CAPS          &mkp LCLK      &mkp RCLK       &kp PAGE_UP      &kp PAGE_DOWN
                                                               &mkp MB4       &mkp MB5        &kp PRINTSCREEN
             >;
@@ -51,7 +51,7 @@
 &trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans     &trans     &trans
 &trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans     &mkp MB4   &trans
 &trans  &trans  &trans  &trans     &trans     &trans       &mkp RCLK  &mkp LCLK  &trans  &mkp MCLK  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &mkp LCLK  &mkp MB5   &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans     &trans     &kp LEFT_CONTROL       &trans     &trans     &trans  &mkp LCLK  &mkp MB5   &trans
                         &mkp MCLK  &mkp LCLK  &mkp RCLK    &mkp RCLK  &mkp LCLK
                                    &mkp MB4   &mkp MB5     &mkp MCLK
             >;
@@ -62,7 +62,7 @@
 &trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans     &trans     &trans
 &trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &trans     &mkp MB4   &trans
 &trans  &trans  &trans  &trans     &trans     &trans       &mkp RCLK  &mkp LCLK  &trans  &mkp MCLK  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans  &mkp LCLK  &mkp MB5   &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans     &trans     &kp LEFT_CONTROL       &trans     &trans     &trans  &mkp LCLK  &mkp MB5   &trans
                         &mkp MCLK  &mkp LCLK  &mkp RCLK    &mkp RCLK  &mkp LCLK
                                    &mkp MB4   &mkp MB5     &mkp MCLK
             >;
@@ -82,9 +82,9 @@
         SecMov {
             bindings = <
 &trans  &trans  &trans          &trans        &trans     &trans       &trans           &trans          &trans           &trans  &trans  &trans
-&trans  &trans  &trans          &kp UP_ARROW  &trans     &trans       &trans           &msc SCRL_UP    &trans           &trans  &trans  &trans
+&trans  &trans  &trans          &kp UP_ARROW  &trans     &trans       &trans           &msc SCRL_UP    &kp F5           &trans  &trans  &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans       &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp LEFT_ALT  &trans  &trans
-&trans  &trans  &trans          &trans        &trans     &trans       &kp RA(L)        &trans          &trans           &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans     &trans     &kp LEFT_CONTROL      &kp RA(L)        &trans          &trans           &trans  &trans  &trans
                                 &mkp MCLK     &mkp LCLK  &mkp RCLK    &kp RC(TAB)      &kp TAB
                                               &mkp MB4   &mkp MB5     &kp LA(LC(DEL))
             >;
