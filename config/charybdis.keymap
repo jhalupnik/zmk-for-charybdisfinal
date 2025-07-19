@@ -83,9 +83,9 @@
             bindings = <
 &trans  &trans  &trans          &trans        &trans     &trans       &trans           &trans          &trans           &trans  &trans  &trans
 &trans  &trans  &trans          &kp UP_ARROW  &trans     &trans       &trans           &msc SCRL_UP    &trans           &trans  &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans       &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans       &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp LEFT_ALT  &trans  &trans
 &trans  &trans  &trans          &trans        &trans     &trans       &kp RA(L)        &trans          &trans           &trans  &trans  &trans
-                                &mkp MCLK     &mkp LCLK  &mkp RCLK    &kp RC(TAB)      &kp LA(TAB)
+                                &mkp MCLK     &mkp LCLK  &mkp RCLK    &kp RC(TAB)      &kp TAB
                                               &mkp MB4   &mkp MB5     &kp LA(LC(DEL))
             >;
         };
