@@ -84,7 +84,7 @@
 &trans  &trans  &trans          &trans        &trans     &trans       &trans           &trans          &trans           &trans  &trans  &trans
 &trans  &trans  &trans          &kp UP_ARROW  &trans     &trans       &trans           &msc SCRL_UP    &kp F5           &trans  &trans  &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans       &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp LEFT_ALT  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans     &trans     &kp LEFT_CONTROL      &kp RA(L)        &trans          &trans           &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans     &trans     &kp LEFT_CONTROL      &kp RG(L)        &trans          &trans           &trans  &trans  &trans
                                 &mkp MCLK     &mkp LCLK  &mkp RCLK    &kp RC(TAB)      &kp TAB
                                               &mkp MB4   &mkp MB5     &kp LA(LC(DEL))
             >;
